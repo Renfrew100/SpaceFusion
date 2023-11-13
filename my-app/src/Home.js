@@ -71,7 +71,18 @@ const Home = () => {
     } */
     return(
         <div className="Home">
-            <h2>Home page</h2>
+            <h1>Who we are</h1>
+            <br></br>
+              <h5>Research based company  </h5>
+            <br></br>
+
+            <br></br>
+
+            <br></br>
+            <h1>What we do</h1>
+            <br></br>
+            <h5>Research based company  </h5>
+
     {/*         <BlogList blogs={blogs} title="All Blogs" />
             <BlogList blogs={blogs.filter((blog) => blog.author ==="apple")} title ="Mario's blogs"/>
             <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
@@ -80,9 +91,10 @@ const Home = () => {
             <button onClick={handleClick}>Click me </button>
             <button onClick={(e) =>  handleClickAgain('mario', e)}>Click me again </button>
          */}
-            { error && <div>{error}</div>}
+
+       {/*      { error && <div>{error}</div>}
             { isPending && <div>Loading...</div>}
-            {blogs && <BlogList blogs={blogs}/>}
+            {blogs && <BlogList blogs={blogs}/>} */}
         </div> 
     );
 }
