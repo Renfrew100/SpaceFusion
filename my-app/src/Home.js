@@ -73,15 +73,16 @@ const Home = () => {
         <div className="Home">
             <h1>Who we are</h1>
             <br></br>
-              <h5>Research based company  </h5>
+              <h5>Research based company that will assist with scientific research in spacecraft and launch vehicles </h5>
             <br></br>
 
             <br></br>
 
             <br></br>
             <h1>What we do</h1>
+
             <br></br>
-            <h5>Research based company  </h5>
+            <h5>Scientific research based comapny that seeks out small businesses such as, NASA and other private space based companies to meet out needs as a company and provide our customers with solutions to their challenges</h5>
 
     {/*         <BlogList blogs={blogs} title="All Blogs" />
             <BlogList blogs={blogs.filter((blog) => blog.author ==="apple")} title ="Mario's blogs"/>

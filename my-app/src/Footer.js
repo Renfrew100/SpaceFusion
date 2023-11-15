@@ -5,41 +5,42 @@ import Home from "./Home";
 import Solution from "./Solution";
 import AboutUs from "./AboutUs";
 import Relevance from "./Relevance";
-const Navbar = () => {
+
+const Footer = () => {
     return(
-          <div className="Navbar">
-              <Link to="/" style={{ 
+          <div className="Footer">
+              <Link to="" style={{ 
                 color: 'black', 
-                backgroundColor: '#D9D9D9',
-                marginLeft: '100px',
+                backgroundColor: '#1D4848',
+                marginLeft: '400px',
                 borderRadius: '10px' 
-        }}>Home</Link>
-            <Link to="/Goal of Collaboration" style={{ 
+        }}></Link>
+            <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#D9D9D9',
+              backgroundColor: '#1D4848',
               marginLeft: '100px',
               borderRadius: '10px' 
-        }}>Goal of Collaboration</Link>
-            <Link to="/Solution" style={{ 
+        }}></Link>
+            <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#D9D9D9',
+              backgroundColor: '#1D4848',
               marginLeft: '100px',
               borderRadius: '10px' 
-        }}>Solution</Link>
-            <Link to="/AboutUs" style={{ 
+        }}></Link>
+            <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#D9D9D9',
+              backgroundColor: '#1D4848',
               marginLeft: '100px',
               borderRadius: '10px' 
-        }}>About Us</Link>
-            <Link to="/Relevance" style={{ 
+        }}></Link>
+            <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#D9D9D9',
+              backgroundColor: '#1D4848',
               marginLeft: '100px',
               borderRadius: '10px'
-        }}>Relevance</Link>
+        }}></Link>
         </div>    
   );
 }
 
-export default Navbar;
+export default Footer;

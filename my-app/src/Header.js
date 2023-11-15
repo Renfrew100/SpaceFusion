@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom";
 import GoalCollaboration from "./GoalCollaboration";
 import { Route } from "react-router-dom/cjs/react-router-dom.min";
 import {Switch} from "react-router-dom/cjs/react-router-dom.min";
@@ -38,4 +38,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default Navbar; */
