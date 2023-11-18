@@ -5,41 +5,47 @@ import Home from "./Home";
 import Solution from "./Solution";
 import AboutUs from "./AboutUs";
 import Relevance from "./Relevance";
+import {Switch} from "react-router-dom/cjs/react-router-dom.min";
 
 const Footer = () => {
     return(
+      <Switch>
           <div className="Footer">
-              <Link to="" style={{ 
+            <div className="logoFooter">
+              <img src="NAMECARD16.png" alt="logoHeader" class="logoFooter"></img>
+            </div>
+              <Link to="/" style={{ 
                 color: 'black', 
-                backgroundColor: '#1D4848',
-                marginLeft: '400px',
+                backgroundColor: '#D9D9D9',
+                marginLeft: '10px',
                 borderRadius: '10px' 
         }}></Link>
             <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#1D4848',
-              marginLeft: '100px',
+              backgroundColor: '#D9D9D9',
+              marginLeft: '10px',
               borderRadius: '10px' 
         }}></Link>
             <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#1D4848',
-              marginLeft: '100px',
+              backgroundColor: '#D9D9D9',
+              marginLeft: '10px',
               borderRadius: '10px' 
         }}></Link>
             <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#1D4848',
-              marginLeft: '100px',
+              backgroundColor: '#D9D9D9',
+              marginLeft: '10px',
               borderRadius: '10px' 
         }}></Link>
             <Link to="/" style={{ 
               color: 'black', 
-              backgroundColor: '#1D4848',
-              marginLeft: '100px',
+              backgroundColor: '#D9D9D9',
+              marginLeft: '10px',
               borderRadius: '10px'
         }}></Link>
-        </div>    
+        </div>  
+        </Switch>
   );
 }
 

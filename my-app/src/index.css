@@ -13,12 +13,12 @@
   height: 55vh;
   width: 200vh;
   margin: 60 auto;
-  background-color: #D9D9D9;
+  background-color: #ffffff;
 }
 
 .Navbar {
-  padding: 20px;
   display: flex;
+  padding: 20px;
   align-items: left;
   max-height: 2000px;
   max-width: 2000px;
@@ -26,16 +26,32 @@
   background-color: #481D1D;
 }
 
-.Footer{
-  padding: 30px;
+.logoHeader{
   display: flex;
   align-items: left;
+  max-height: 70px;
+  max-width: 70px;
+  margin: 0 auto;
+}
+
+.Footer {
+  display: flex;
+  padding: 20px;
+  align-items: right;
   max-height: 2000px;
   max-width: 2000px;
-  margin: 0 auto;
+  margin: 200 auto;
   background-color: #1D4848;
 }
 
+.logoFooter{    
+  position: fixed;
+  display:flex;
+  top: 850px;
+  max-height: 70px;
+  max-width: 70px;
+  right: 100px;
+}
 
 .Navbar h1 {
   color: #000000;
