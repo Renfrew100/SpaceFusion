@@ -74,9 +74,8 @@ const GoalCollaboration = () => {
             <h1>Goal of Collaboration</h1>
             <br></br>
               <h4>They are multiple problems at NASA that needs to be solved  </h4>
-                <h5>-Improvements in scientific research in the space sector, vehicles
-                        -Spacecraft and launch vehicles
-                </h5>
+                <h5>-Improvements in scientific research in the space sector, vehicles</h5>
+                    <h5>-Spacecraft and launch vehicles</h5>
             <h5>-Quality assurance codebase aspects of the space systems</h5>
             <h5>-Manufacturing improvements as well as implenting feedback / suggestions provided by the supervisor in charge (David Brock)</h5>
 
