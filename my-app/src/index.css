@@ -36,10 +36,10 @@
 
 .Footer {
   display: flex;
-  padding: 34px;
+  padding: 28px;
   align-items: right;
-  max-height: 2200px;
-  max-width: 2200px;
+  max-height: 2400px;
+  max-width: 2400px;
   margin: 300 auto;
   background-color: #1D4848;
 }
