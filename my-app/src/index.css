@@ -36,12 +36,16 @@
 
 .Footer {
   display: flex;
-  padding: 28px;
+  padding: 18px;
   align-items: right;
   max-height: 2400px;
   max-width: 2400px;
   margin: 300 auto;
   background-color: #1D4848;
+}
+
+.Footer h1{
+  color: #ffffff;
 }
 
 .logoFooter{    
@@ -50,7 +54,7 @@
   bottom: 0;
   max-height: 120px;
   max-width: 120px;
-  right: 100px;
+  right: 120px;
 }
 
 .Navbar h1 {
