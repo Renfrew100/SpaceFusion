@@ -30,8 +30,8 @@
   position: fixed;
   display: flex;
   top: 0;
-  max-height: 120px;
-  max-width: 120px;
+  max-height: 140px;
+  max-width: 140px;
   left: 0px;
 }
 
@@ -53,8 +53,8 @@
   position: fixed;
   display:flex;
   bottom: 0;
-  max-height: 120px;
-  max-width: 120px;
+  max-height: 140px;
+  max-width: 140px;
   right: 0px;
 }
 
