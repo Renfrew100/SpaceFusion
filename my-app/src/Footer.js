@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="logoFooter">
               <img src="NAMECARD16.png" alt="logoHeader" class="logoFooter"></img>
             </div>
-            <h2>Copyright &#169; 2023 Space Fusion Inc. </h2>
+              <h2>Copyright &#169; 2023 Space Fusion Inc. </h2>
               <Link to="/" style={{ 
                 color: 'black', 
                 backgroundColor: '#D9D9D9',

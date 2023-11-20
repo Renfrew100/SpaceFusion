@@ -37,16 +37,11 @@
 
 .Footer {
   display: flex;
-  padding: 20px;
+  padding: 18px;
   align-items: right;
   max-height: 2200px;
   max-width: 2200px;
-  margin: 300 auto;
   background-color: #1D4848;
-}
-
-.Footer h2{
-  color: #ffffff;
 }
 
 .logoFooter{    
@@ -56,6 +51,11 @@
   max-height: 140px;
   max-width: 140px;
   right: 0px;
+}
+
+.Footer h2{
+  margin: 500 auto;
+  color: #ffffff;
 }
 
 .Navbar h1 {
