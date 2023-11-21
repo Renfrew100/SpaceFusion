@@ -73,11 +73,20 @@ const Relevance = () => {
         <div className="Relevance">
             <h1>Relevance</h1>
             <br></br>
-              <h5>Working with NASA as a small business partner  </h5>
-            <br></br>
-
-            <h1>Working with NASA as a small business partner</h1>
-
+              <h2>Working with NASA as a small business partner</h2>
+                <h5>-Space fusion is an NGO that will work closely with NASA as a small business partner</h5>
+                <br></br>
+              <h2>Eligiblity</h2>
+              <h5>-Small amount of barriers to remain in the US for the project to be successful and that is why I am seeking out the assistance of US based officials to make it possible (David Brock and Madison Feehan)</h5>
+                <br></br>
+              <h2>Support to bring forward</h2>
+              <h5>-Provide goods or services as a federal subcontractor</h5>
+              <h5>-Receive a subaward under a federal grant/financial assistance program</h5>
+           <br></br>
+            <h1>Previous Experience with NASA (NSPIRIES)</h1>
+                <h5>-Submitted a proposal to NASA (D.5 USRC research program) as advised by Madison Feehan (CEO and co-founder of Space Copy, NASA, and NSRESS employee)</h5>
+                <h5>-Challenges: -Unsuccessful because of organization's unresponsiveness</h5>
+                <h5>-Limited supporting documentation and contents of majority of the propoal</h5>
             <br></br>
 
     {/*         <BlogList blogs={blogs} title="All Blogs" />

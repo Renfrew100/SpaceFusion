@@ -186,10 +186,10 @@
 }
 
 .Relevance {
-  padding: 40px;
+  /* display: inline-block; */
   display: inline-block;
-  align-items: left;
-  max-width: 600px;
+  align-items: center;
+  max-width: 1000px;
   margin: 50 auto;
 }
 
@@ -198,6 +198,10 @@
 }
 
 .Relevance h5{
+  color: #B51E1E;
+}
+
+.Relevance h6{
   color: #B51E1E;
 }
 
