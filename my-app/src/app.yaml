@@ -1,11 +1,25 @@
-network:
-  name: us-east1
-  instance_ip_mode: internal
-  instance_tag: aef-instance
-  subnetwork_name: default
-  session_affinity: true
-  forwarded_ports:
-    - 2222
-    - 3024:10346
-    - 2222 / tcp
-    - 3024:10346 / udp
+runtime: nodejs
+env: flex
+
+handlers:
+  - url: /api/.*
+    script: auto
+  - url: /
+    static_files: client/build/index.html
+    upload: client/build/index.html
+  - url: /
+    static_dir: client/build
+  - url: /static
+    static_dir: client/build/static
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto
+
+manual_scaling:
+  instances: 1
+
+resources:
+  cpu: 2
+  memory_gb: 8.0
+  disk_size_gb: 20
