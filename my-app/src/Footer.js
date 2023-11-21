@@ -14,37 +14,13 @@ const Footer = () => {
             <div className="logoFooter">
               <img src="NAMECARD16.png" alt="logoHeader" class="logoFooter"></img>
             </div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </link>
               <h2>Copyright &#169; 2023 Space Fusion Inc. </h2>
-              <Link to="/" style={{ 
-                color: 'black', 
-                backgroundColor: '#D9D9D9',
-                marginLeft: '10px',
-                borderRadius: '10px' 
-        }}></Link>
-            <Link to="/" style={{ 
-              color: 'black', 
-              backgroundColor: '#D9D9D9',
-              marginLeft: '10px',
-              borderRadius: '10px' 
-        }}></Link>
-            <Link to="/" style={{ 
-              color: 'black', 
-              backgroundColor: '#D9D9D9',
-              marginLeft: '10px',
-              borderRadius: '10px' 
-        }}></Link>
-            <Link to="/" style={{ 
-              color: 'black', 
-              backgroundColor: '#D9D9D9',
-              marginLeft: '10px',
-              borderRadius: '10px' 
-        }}></Link>
-            <Link to="/" style={{ 
-              color: 'black', 
-              backgroundColor: '#D9D9D9',
-              marginLeft: '10px',
-              borderRadius: '10px'
-        }}></Link>
+              <a href="https://www.facebook.com/profile.php?id=61553412677922" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/spacefusionorg/?fbclid=IwAR2aBDrH67Lm_5ZYhWxD2z5piN5uu72DqJaHFChBHgd07mBvBnCQQNdjaDU" class="fa fa-instagram"></a>
+              <a href="https://www.youtube.com/@SpaceFusionInc-spacefusionorg/featured" class="fa fa-youtube"></a>
+              <a href="https://twitter.com/SpaceFusionInc" class="fa fa-twitter"></a>
         </div>  
         </Switch>
   );
