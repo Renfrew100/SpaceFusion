@@ -30,16 +30,16 @@
   position: fixed;
   display: flex;
   top: 0;
-  max-height: 130px;
+  max-height: 110px;
   max-width: 130px;
   left: 0px;
 }
 
 .Footer {
   display: flex;
-  padding: 16px;
+  padding: 14px;
   align-items: right;
-  max-height: 2200px;
+  max-height: 2400px;
   max-width: 2200px;
   background-color: #1D4848;
 }
@@ -48,8 +48,8 @@
   position: fixed;
   display:flex;
   bottom: 0;
-  max-height: 130px;
-  max-width: 130px;
+  max-height: 110px;
+  max-width: 110px;
   right: 0px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .fa {
-  padding: 12px;
+  padding: 8px;
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -73,7 +73,7 @@
 
 .fa-facebook {
   display: flex;
-  margin-left: 350px;
+  margin-left: 200px;
   border-radius: 25%;
   background: #3B5998;
   color: white;
