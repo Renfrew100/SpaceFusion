@@ -5,12 +5,12 @@ handlers:
   - url: /api/.*
     script: auto
   - url: /
-    static_files: client/build/index.html
-    upload: client/build/index.html
+    static_files: my-app/public/index.html
+    upload: my-app/public/index.html
   - url: /
-    static_dir: client/build
+    static_dir: my-app/public
   - url: /static
-    static_dir: client/build/static
+    static_dir: my-app/public/static
   - url: /.*
     secure: always
     redirect_http_response_code: 301
