@@ -1,11 +1,11 @@
 network:
-name: us-east1
-instance_ip_mode: internal
-instance_tag: aef-instance
-subnetwork_name: default
-session_affinity: true
-forwarded_ports:
-  - 2222
-  - 3024:10346
-  - 2222 / tcp
-  - 3024:10346 / udp
+  name: us-east1
+  instance_ip_mode: internal
+  instance_tag: aef-instance
+  subnetwork_name: default
+  session_affinity: true
+  forwarded_ports:
+    - 2222
+    - 3024:10346
+    - 2222 / tcp
+    - 3024:10346 / udp
