@@ -37,7 +37,7 @@
 
 .Footer {
   display: flex;
-  padding: 16px;
+  padding: 14px;
   align-items: right;
   max-height: 2400px;
   max-width: 2200px;
@@ -133,7 +133,7 @@
   color: #000000;
 }
 
-.Home h5{
+.Home h4{
   color: #B51E1E;
 }
 /* blog previews / list */
