@@ -86,12 +86,10 @@ const AboutUs = () => {
                 <h5>Shared Services Canada</h5>
                 <h5>University of Ottawa IT Services</h5>
             <br></br>
-            <h4>Volunteer, interesting projects, and aspirations</h4>
+            <h4>Volunteer, interesting projects, aspirations, and contact</h4>
 
                 <h5><a href="https://renfrew100.github.io/alis-portfolio/about/">Ali's Projects</a></h5>
                 <h5><a href="https://renfrew100.github.io/alis-portfolio">Ali's Portfolio</a></h5><br></br>
-                <h5>Email / Phone</h5>
-                <h6>---------------------</h6>
                 <h5>generation@spacefusion.org / <a href="https://www.linkedin.com/in/ali-aftab-muhammad/">Linkedln</a> / 613-323-2970</h5><br></br>
 
     {/*         <BlogList blogs={blogs} title="All Blogs" />
