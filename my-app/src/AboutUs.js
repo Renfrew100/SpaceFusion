@@ -1,6 +1,7 @@
 //import { useState, useEffect } from 'react';
 import BlogList from './BlogList';
 import useFetch from './useFetch';
+import image from './Alis-Profile.jpg';
 
 const AboutUs = () => {
     //let name = 'mario';
@@ -71,11 +72,27 @@ const AboutUs = () => {
     } */
     return(
         <div className="AboutUs">
+            <img src={image} alt="Ali's Profile" />
             <h1>About us</h1>
             <br></br>
-              <h5>Research based company  </h5>
+            <h4>Education</h4>
+                <h5>-Ali is a fourth year student at the University of Ottawa pursuing an Honours BSc in Computer Science with an Engineering Management and Entrepreneurship option (2023)</h5>
+                <h5>-Ali is a fourth year student at the University of Ottawa pursuing a BASc in Software Engineering with an Engineering Management and Entrepreneurship option (2018-2022)</h5>
             <br></br>
+            <h4>Previous Employment</h4>  
+                <h5>JSI Telecom</h5>
+                <h5>University of Ottawa Human Rights</h5>
+                <h5>Royal Canadian Mounted Police</h5>
+                <h5>Shared Services Canada</h5>
+                <h5>University of Ottawa IT Services</h5>
+            <br></br>
+            <h4>Volunteer, interesting projects, and aspirations</h4>
 
+                <h5><a href="https://renfrew100.github.io/alis-portfolio/about/">Ali's Projects</a></h5>
+                <h5><a href="https://renfrew100.github.io/alis-portfolio">Ali's Portfolio</a></h5><br></br>
+                <h5>Email / Phone</h5>
+                <h6>---------------------</h6>
+                <h5>generation@spacefusion.org / <a href="https://www.linkedin.com/in/ali-aftab-muhammad/">Linkedln</a> / 613-323-2970</h5><br></br>
 
     {/*         <BlogList blogs={blogs} title="All Blogs" />
             <BlogList blogs={blogs.filter((blog) => blog.author ==="apple")} title ="Mario's blogs"/>

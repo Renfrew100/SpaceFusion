@@ -73,9 +73,15 @@ const Solution = () => {
         <div className="Solution">
             <h1>Solution</h1>
             <br></br>
-              <h5>Research based company  </h5>
+              <h4>They are multiple problems at NASA that needs to be solved  </h4>
+                <h5>-Conducting actual scientific research in the space sector, vehicles (spacecraft and launch vehicles) </h5>
+                <h5>-Using working knowledge in Elixir, Maven, Spotbugs, and Selenium IDE to assist in the quality assurance of the space systems</h5>
+            <h5>-Buying actual spacecraft parts to assist in the manufacturing of the space systems and implementing feedback / suggestions provided by the supervisor in charge (David Brock)</h5>
+
             <br></br>
 
+
+            <br></br>
 
     {/*         <BlogList blogs={blogs} title="All Blogs" />
             <BlogList blogs={blogs.filter((blog) => blog.author ==="apple")} title ="Mario's blogs"/>

@@ -121,11 +121,15 @@
   color: #B51E1E
 }
 
+.GoalCollaboration h6{
+  display: flex;
+  color: #B51E1E
+}
+
 .Solution {
-  padding: 40px;
   display: inline-block;
-  align-items: left;
-  max-width: 600px;
+  align-items: center;
+  width: 600px;
   margin: 50 auto;
 }
 
@@ -134,16 +138,35 @@
   color: #000000;
 }
 
+.Solution h4{
+  display: flex;
+  color: #B51E1E;
+}
+
 .Solution h5{
   color: #B51E1E;
 }
 
+.Solution h6{
+  color: #B51E1E;
+}
+
 .AboutUs {
-  padding: 40px;
   display: inline-block;
-  align-items: left;
-  max-width: 600px;
-  margin: 80 auto;
+  align-items: center;
+  width: 2000px;
+  margin: 50 auto;
+}
+
+.AboutUs img{
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  max-width: 150px;
+  max-height: 150px;
+  margin-left: 800px;
+  border-radius: 50%;
+
 }
 
 .AboutUs h1{
@@ -151,6 +174,14 @@
 }
 
 .AboutUs h5{
+  color: #B51E1E;
+}
+
+.AboutUs h6{
+  color: #B51E1E;
+}
+
+.AboutUs a{
   color: #B51E1E;
 }
 
