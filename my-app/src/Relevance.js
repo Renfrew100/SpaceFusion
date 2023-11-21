@@ -86,7 +86,7 @@ const Relevance = () => {
             <h1>Previous Experience with NASA (NSPIRIES)</h1>
                 <h5>-Submitted a proposal to NASA (D.5 USRC research program) as advised by Madison Feehan (CEO and co-founder of Space Copy, NASA, and NSRESS employee)</h5>
                 <h5>-Challenges: -Unsuccessful because of organization's unresponsiveness</h5>
-                <h5>-Limited supporting documentation and contents of majority of the propoal due to lack of time</h5>
+                <h5>-Limited supporting documentation and contents of majority of the propoal</h5>
             <br></br>
 
     {/*         <BlogList blogs={blogs} title="All Blogs" />
