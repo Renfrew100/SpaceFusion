@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.2ea14628.css",
+    "main.js": "/my-app/static/js/main.ef469f28.js",
+    "static/media/Alis-Profile.jpg": "/my-app/static/media/Alis-Profile.85344de13e8c784fcc40.jpg",
+    "index.html": "/my-app/index.html",
+    "main.2ea14628.css.map": "/my-app/static/css/main.2ea14628.css.map",
+    "main.ef469f28.js.map": "/my-app/static/js/main.ef469f28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ea14628.css",
+    "static/js/main.ef469f28.js"
+  ]
+}
