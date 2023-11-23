@@ -2,4 +2,4 @@
 
 ![Screenshot](homepage.png)
 
-![Screenshot](goalofcollaboration.png.png)
+![Screenshot](goalofcollaboration.png)
