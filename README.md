@@ -1,6 +1,6 @@
 # SpaceFusion
 
-![image](https://github.com/Renfrew100/SpaceFusion/assets/37605427/7d9eaae3-73d9-42fb-a431-c5db0a642319)
+![alt text]([http://url/to/img.png](https://github.com/Renfrew100/SpaceFusion/assets/37605427/7d9eaae3-73d9-42fb-a431-c5db0a642319))
 
 ![image](https://github.com/Renfrew100/SpaceFusion/assets/37605427/06187763-c35f-4418-ba68-85f71d3403a2)
 
